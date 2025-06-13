@@ -42,6 +42,7 @@ func main() {
 	<-signalChan
 
 	log.Println("Shutdown signal received, exiting...")
+	log.Println("test over")
 
 	s.Shutdown(context.Background())
 }
